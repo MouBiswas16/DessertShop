@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_image"
+    tools:context=".MainActivity">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/dessert_shop_logo"
+        app:shapeAppearanceOverlay="@style/circular"
+        app:strokeColor="@color/black"
+        android:padding="5dp"
+        app:strokeWidth="3dp"
+        android:layout_marginBottom="15dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="68dp">
+    </com.google.android.material.imageview.ShapeableImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Dessert and Pastry Shop"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.419">
+    </TextView>
+
+    <Button
+        android:id="@+id/cakeButton"
+        android:backgroundTint="#BF8B5E"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Cake"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="360dp">
+    </Button>
+
+    <Button
+        android:id="@+id/pastryButton"
+        android:backgroundTint="#BF8B5E"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Pastry"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="425dp">
+    </Button>
+
+    <Button
+        android:id="@+id/dessertButton"
+        android:backgroundTint="#BF8B5E"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Dessert"
+        android:textAllCaps="false"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="487dp">
+    </Button>
+</LinearLayout>

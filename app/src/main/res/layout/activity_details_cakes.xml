@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp"
+    android:orientation="vertical"
+    android:background="@drawable/background_image"
+    tools:context=".DetailsCakes"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/detailsNameCakes"
+        android:layout_marginTop="14dp"
+        android:text="Item Name"
+        android:textSize="26sp"
+        android:textColor="@color/lightBrown"
+        android:textStyle="bold"
+        android:layout_gravity="center">
+    </TextView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="380dp"
+        android:layout_height="200dp"
+        android:id="@+id/cardImageCakes"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="8dp">
+        
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:id="@+id/detailsImageCakes"
+            android:layout_gravity="center"
+            android:src="@drawable/vanilla_cake"
+            android:scaleType="fitCenter">
+        </ImageView>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title :"
+        android:textColor="@color/lightBrown"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="title"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/CakeDetailsTitle">
+    </TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cake Details :"
+        android:textColor="@color/lightBrown"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="details"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/cakeDetails">
+    </TextView>
+</LinearLayout>
