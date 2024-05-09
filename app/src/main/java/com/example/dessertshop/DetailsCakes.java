@@ -23,7 +23,7 @@
 //            String title = intent.getStringExtra("title");
 //            String details = intent.getStringExtra("details");
 //            int image = intent.getIntExtra("image", R.drawable.vanilla_cake);
-//            int id = intent.getIntExtra("id", R.string.vanillaCakeId);
+////            int id = intent.getIntExtra("id", R.string.vanillaCakeId);
 //
 //            binding.detailsNameCakes.setText(name);
 //            binding.CakeDetailsTitle.setText(title);

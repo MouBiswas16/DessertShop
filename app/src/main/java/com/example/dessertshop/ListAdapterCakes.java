@@ -20,66 +20,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
 
-//public class ListAdapterCakes extends ArrayAdapter<ListDataCakes> {
-//
-//    public ListAdapterCakes(@NonNull Context context, ArrayList<ListDataCakes> dataCakesArrayList) {
-//        super(context, R.layout.list_item_cakes, dataCakesArrayList);
-//    }
-//
-//    @NonNull
-//    @Override
-//    public View getView(int position, @Nullable View view, @NonNull ViewGroup parent) {
-//        ListDataCakes listDataCakes = getItem(position);
-//
-//        if (view == null) {
-//            view = LayoutInflater.from(getContext()).inflate(R.layout.list_item_cakes, parent, false);
-//        }
-//
-//        ImageView listImageCakes = view.findViewById(R.id.listImageCakes);
-//        TextView listTitleCakes = view.findViewById(R.id.listTitleCakes);
-////        TextView listDetails = view.findViewById(R.id.listCakeDetails);
-//        TextView listCakesId = view.findViewById(R.id.listCakesId);
-//
-//        listImageCakes.setImageResource(listDataCakes.image);
-//        listTitleCakes.setText(listDataCakes.title);
-////        listDetails.setText(listDataCakes.details);
-//        listCakesId.setText(listDataCakes.id);
-//
-//        return view;
-//    }
-//}
-
-//*****************************************************************************************
-
-//public class ListAdapterCakes extends AppCompatActivity implements AdapterView.OnItemClickListener {
-//    ListView cakeList;
-//
-//    @SuppressLint("MissingSuperCall")
-//    @Override
-//    protected void onCreate(Bundle savedInstanceState){
-//        super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_main_cake_items);
-//
-//        cakeList=(ListView)findViewById(R.id.listviewCakes);
-//        cakeList.setOnItemClickListener(this);
-//    }
-//
-//    @Override
-//    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-//
-//        String name=(String)parent.getItemAtPosition(position);
-//
-//        if(name.equals("Cake")){
-//            Toast.makeText( getBaseContext(), "Cake Selected",Toast.LENGTH_SHORT).show();
-//        } else if (name.equals("Pastry")) {
-//            Toast.makeText( getBaseContext(), "Pastry Selected",Toast.LENGTH_SHORT).show();
-//        } else if (name.equals("Dessert")) {
-//            Toast.makeText( getBaseContext(), "Dessert Selected",Toast.LENGTH_SHORT).show();
-//        }
-//    }
-//}
-
-//*********************************************************************************
+// extends (i).ArrayAdapter, (ii).AppCompatActivity implements AdapterView.OnItemClickListener, (iii).BaseAdapter
 
 public class ListAdapterCakes extends BaseAdapter {
     Context context;

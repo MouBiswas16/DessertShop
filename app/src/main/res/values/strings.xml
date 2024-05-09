@@ -14,35 +14,35 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
-<!--    -->
-<!--    <string-array name="cakeList">-->
-<!--        <item>Vanilla Cake</item>-->
-<!--        <item>Chocolate Cake</item>-->
-<!--        <item>Strawberry Cake</item>-->
-<!--    </string-array>-->
+    <!--    -->
+    <!--    <string-array name="cakeList">-->
+    <!--        <item>Vanilla Cake</item>-->
+    <!--        <item>Chocolate Cake</item>-->
+    <!--        <item>Strawberry Cake</item>-->
+    <!--    </string-array>-->
 
-<!--    // Vanilla Cake-->
-<!--    <string name="vanillaCakeId">01</string>-->
-<!--    <string name="vanillaCakeTitle">Vanilla Cake</string>-->
-<!--    <string name="vanillaCakeDetails">The Most Famous Vanilla Cake on the town.-->
-<!--        \nThe main Ingredients are Wheat, Egg, Real Vanilla Pods, Sugar.-->
-<!--        \nNo Colorings Added.-->
-<!--    </string>-->
+    <!--    // Vanilla Cake-->
+    <!--    <string name="vanillaCakeId">01</string>-->
+    <!--    <string name="vanillaCakeTitle">Vanilla Cake</string>-->
+    <!--    <string name="vanillaCakeDetails">The Most Famous Vanilla Cake on the town.-->
+    <!--        \nThe main Ingredients are Wheat, Egg, Real Vanilla Pods, Sugar.-->
+    <!--        \nNo Colorings Added.-->
+    <!--    </string>-->
 
-<!--    // Chocolate Cake-->
-<!--    <string name="chocolateCakeId">02</string>-->
-<!--    <string name="chocolateCakeTitle">Chocolate Cake</string>-->
-<!--    <string name="chocolateCakeDetails">The Most Famous Chocolate Cake on the town.-->
-<!--        \nThe main Ingredients are Wheat, Egg, Real Chocolate Bars, Sugar.-->
-<!--        \nNo Colorings Added.-->
-<!--    </string>-->
+    <!--    // Chocolate Cake-->
+    <!--    <string name="chocolateCakeId">02</string>-->
+    <!--    <string name="chocolateCakeTitle">Chocolate Cake</string>-->
+    <!--    <string name="chocolateCakeDetails">The Most Famous Chocolate Cake on the town.-->
+    <!--        \nThe main Ingredients are Wheat, Egg, Real Chocolate Bars, Sugar.-->
+    <!--        \nNo Colorings Added.-->
+    <!--    </string>-->
 
-<!--    // Strawberry Cake-->
-<!--    <string name="strawberryCakeId">03</string>-->
-<!--    <string name="strawberryCakeTitle">Strawberry Cake</string>-->
-<!--    <string name="strawberryCakeDetails">The Most Famous Strawberry Cake on the town.-->
-<!--        \nThe main Ingredients are Wheat, Egg, Real Strawberry pulps, Sugar.-->
-<!--        \nNo Colorings Added.-->
-<!--    </string>-->
+    <!--    // Strawberry Cake-->
+    <!--    <string name="strawberryCakeId">03</string>-->
+    <!--    <string name="strawberryCakeTitle">Strawberry Cake</string>-->
+    <!--    <string name="strawberryCakeDetails">The Most Famous Strawberry Cake on the town.-->
+    <!--        \nThe main Ingredients are Wheat, Egg, Real Strawberry pulps, Sugar.-->
+    <!--        \nNo Colorings Added.-->
+    <!--    </string>-->
 
 </resources>

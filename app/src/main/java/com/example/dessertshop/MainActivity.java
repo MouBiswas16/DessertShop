@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent);
             }
             if (v.getId() == R.id.pastryButton) {
-                Intent intent = new Intent(MainActivity.this, MainCakeItems.class);
+                Intent intent = new Intent(MainActivity.this, MainPastryItems.class);
                 startActivity(intent);
             }
             if (v.getId() == R.id.dessertButton) {
