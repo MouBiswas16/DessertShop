@@ -14,6 +14,17 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+
+    <string-array name="dessertList">
+        <item>Pudding</item>
+        <item>Donuts</item>
+        <item>Ice Cream</item>
+        <item>Chocolate Bar</item>
+        <item>Baklava</item>
+        <item>Macaroon</item>
+        <item>Chocolate Brownie</item>
+    </string-array>
+
     <!--    -->
     <!--    <string-array name="cakeList">-->
     <!--        <item>Vanilla Cake</item>-->
